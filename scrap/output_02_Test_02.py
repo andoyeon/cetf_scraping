@@ -1,11 +1,15 @@
 from selenium import webdriver
 import pandas as pd
-from prod.file_pk import read_file
+from scrap.file_pk import read_file
+from scrap.file_pk import save_file
 from bs4 import BeautifulSoup
 import time
+from multiprocessing import Pool
+from datetime import datetime
 
 
-def scraping(keyword):
+
+def scraping_output_02(keyword):
 
     # Chrome Option 설정하기
     options = webdriver.ChromeOptions()
@@ -42,25 +46,44 @@ def scraping(keyword):
         # time.sleep(1)
 
         data = soup.find('table', class_="inTbTy1").find_all('td')[2]
-        regs_dt = str(data)[4:14]
+        date = str(data)[4:14]
+        regs_dt = datetime.strptime(date, '%Y-%m-%d')
 
         return regs_dt
         # driver.implicitly_wait(20)
     except:
-        print('타임아웃 [{}] Error Existing...'.format(count+1))
+        date = '0000-00-00'
+        regs_dt = datetime.strptime(date, '%Y-%m-%d')
+        print('타임아웃 [{}] Error Existing...')
         # Chrome Driver 종료
     driver.close()
 
 
 
-
-if __name__ == '__main__':
-    # 인증번호 파일 불러오기
+def html_scraping():
     regs_nms, regs_nums = read_file('product_list.csv')
-
+    regs_dts = []
     for count in range(len(regs_nums)):
         regs_nm = regs_nms[count]
         regs_num = regs_nums[count]
 
-        regs_dt = scraping(regs_num)
+        # 인증날짜 리스트 생성
+        regs_dt = scraping_output_02(regs_num)
+        regs_dts.append(regs_dt)
+
         print('=== [{}] {}, {}, {} ==='.format(count + 1, regs_nm, regs_num, regs_dt))
+        if count % 10 == 0:
+            print('--- %s seconds ---' % (time.time() - start_time))
+
+    return count+1, regs_nm, regs_num, regs_dt
+
+
+
+
+
+if __name__ == '__main__':
+    start_time = time.time()
+    print('Start:', start_time)
+
+    regs_nm, regs_num, regs_dt = html_scraping()
+    save_file(regs_nm, regs_num, regs_dt)

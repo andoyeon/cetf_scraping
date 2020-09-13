@@ -13,22 +13,24 @@ def read_file(path):
     return list(regs_nm), list(regs_num)
 
 
-def make_file(regs_nm, regs_num, regs_dt):
+def save_file(regs_nm, regs_num, regs_dt):
     # 세 요소로 데이터 프레임 생성하기
     # df3 = pd.DataFrame(regs_nm, regs_num, regs_dt)
     # print(regs_nm)
-    df1 = pd.DataFrame(regs_nm)
-
-    # df4 = pd.concat(df1, df2, df3)
+    df = pd.DataFrame({"regs_nm": regs_nm})
+    df["reg_num"] = regs_num
+    df["regs_dt"] = regs_dt
 
     # 데이터 프레임을 csv파일로 저장
-    df1.to_csv('output_02.csv', mode='a', header=False)
+    df.to_csv('output_02.csv', mode='a', header=True)
 
 
 
 if __name__ == '__main__':
+    pass
     # read_file('product_list.csv')
-    regs_nm = ['A', 'B', 'C']
-    regs_num = ['HH-AA', 'AA-GG', 'BB-BNN']
-    regs_dt = ['0000-00-00', '1111-09-09', '3939-99-99']
-    make_file(regs_nm, regs_num, regs_dt)
+    # regs_nm = ['A', 'B', 'C']
+    # regs_num = ['HH-AA', 'AA-GG', 'BB-BNN']
+    # regs_dt = ['0000-00-00', '1111-09-09', '3939-99-99']
+    # result = make_file(regs_nm, regs_num, regs_dt)
+    # print(result)

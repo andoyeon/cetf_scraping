@@ -1,9 +1,12 @@
 from selenium import webdriver
 import pandas as pd
-from prod.file_pk import read_file
+from scrap.file_pk import read_file
+from scrap.file_pk import save_file
 from bs4 import BeautifulSoup
 import time
 from multiprocessing import Pool
+from datetime import datetime
+
 
 
 def scraping_output_02(keyword):
@@ -43,12 +46,14 @@ def scraping_output_02(keyword):
         # time.sleep(1)
 
         data = soup.find('table', class_="inTbTy1").find_all('td')[2]
-        regs_dt = str(data)[4:14]
+        date = str(data)[4:14]
+        regs_dt = datetime.strptime(date, '%Y-%m-%d')
 
         return regs_dt
         # driver.implicitly_wait(20)
     except:
-        rehs_dt = '0000-00-00'
+        date = '0000-00-00'
+        regs_dt = datetime.strptime(date, '%Y-%m-%d')
         print('타임아웃 [{}] Error Existing...')
         # Chrome Driver 종료
     driver.close()
@@ -80,4 +85,5 @@ if __name__ == '__main__':
     start_time = time.time()
     print('Start:', start_time)
 
-    html_scraping()
+    regs_nm, regs_num, regs_dt = html_scraping()
+    save_file(regs_nm, regs_num, regs_dt)

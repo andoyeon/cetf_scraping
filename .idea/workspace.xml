@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e003085-d522-4163-9f8e-5cc963e6fb46" name="Default Changelist" comment="" />
+    <list default="true" id="2e003085-d522-4163-9f8e-5cc963e6fb46" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/df.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrap/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrap/output_02_Test_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod/add_years.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrap/add_years.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod/file_pk.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrap/file_pk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod/output_02.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod/output_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrap/output_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod/output_02_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrap/output_02_Test_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod/product_list.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scrap/product_list.csv" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +27,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1hMZpXQicQHfkTMrSX5Lw7DaEJM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,11 +41,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.file_pk (1)">
-    <configuration name="add_years" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\cetf_scraping\prod" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.output_02_Test_02">
+    <configuration name="add_years (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cetf" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -34,32 +59,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prod" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrap" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prod/add_years.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="file_pk (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="cetf" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prod" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prod/file_pk.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrap/add_years.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -76,11 +80,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prod" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrap" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\dev\cetf\prod\file_pk.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrap/file_pk.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -97,11 +101,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prod" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrap" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\dev\cetf\prod\output_02.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrap/output_02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,7 +114,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="output_02_Test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="output_02_Test_01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cetf" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -118,11 +122,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prod" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrap" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\dev\cetf\prod\output_02_Test.py" />
+      <option name="SCRIPT_NAME" value="C:\dev\cetf_scraping\scrap\output_02_Test_01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="output_02_Test_02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cetf" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrap" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrap/output_02_Test_02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,9 +158,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.file_pk (1)" />
-        <item itemvalue="Python.add_years" />
-        <item itemvalue="Python.output_02_Test" />
+        <item itemvalue="Python.output_02_Test_02" />
+        <item itemvalue="Python.output_02_Test_01" />
+        <item itemvalue="Python.add_years (1)" />
         <item itemvalue="Python.output_02" />
         <item itemvalue="Python.file_pk" />
       </list>
@@ -155,26 +180,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1126" y="273" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599999661471">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1126" y="273" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599999661471" />
     <state x="1176" y="278" key="FileChooserDialogImpl" timestamp="1599823243254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1176" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599823243254" />
-    <state width="1027" height="167" key="GridCell.Tab.0.bottom" timestamp="1599997712517">
+    <state width="1027" height="168" key="GridCell.Tab.0.bottom" timestamp="1600015130399">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1027" height="167" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599997712517" />
-    <state width="1027" height="167" key="GridCell.Tab.0.center" timestamp="1599997712517">
+    <state width="1027" height="168" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600015130399" />
+    <state width="1027" height="168" key="GridCell.Tab.0.center" timestamp="1600015130399">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1027" height="167" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599997712517" />
-    <state width="1027" height="167" key="GridCell.Tab.0.left" timestamp="1599997712517">
+    <state width="1027" height="168" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600015130399" />
+    <state width="1027" height="168" key="GridCell.Tab.0.left" timestamp="1600015130399">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1027" height="167" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599997712517" />
-    <state width="1027" height="167" key="GridCell.Tab.0.right" timestamp="1599997712517">
+    <state width="1027" height="168" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600015130399" />
+    <state width="1027" height="168" key="GridCell.Tab.0.right" timestamp="1600015130399">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1027" height="167" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599997712517" />
+    <state width="1027" height="168" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600015130399" />
     <state x="899" y="165" key="SettingsEditor" timestamp="1599824351965">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
