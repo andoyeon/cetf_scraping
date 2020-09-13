@@ -4,6 +4,7 @@
     <list default="true" id="2e003085-d522-4163-9f8e-5cc963e6fb46" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Test/df.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/error_msg.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/scrap/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/scrap/output_02_Test_02.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
