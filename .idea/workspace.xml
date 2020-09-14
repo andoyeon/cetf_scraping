@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e003085-d522-4163-9f8e-5cc963e6fb46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/df.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/error_msg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrap/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrap/output_02_Test_02.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prod/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prod/add_years.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrap/add_years.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prod/file_pk.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrap/file_pk.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prod/output_02.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prod/output_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrap/output_02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prod/output_02_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrap/output_02_Test_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prod/product_list.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scrap/product_list.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
